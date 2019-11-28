@@ -1,22 +1,149 @@
-.App {
+/*Reset*/
+body{
+  background: url(https://the-village-calendar.larek.pro/images/background-4.jpg) #eff7f9 no-repeat;
+  background-size: 100%;
+}
+
+/*.row.header {
+  background: transparent;
+}*/
+
+.row.post-cover-row {
+  background: transparent;
+}
+
+.post-cover {
+  background: transparent;
+}
+
+.stk-post.stk-theme_2393.stk-layout_6{
+background: transparent;
+}
+
+.pseudosidebar{
+display: none;
+}
+
+.post .post-cover {
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.post-cover_26.post-cover_26-style_2 .cover-wrap .share-buttons-bar {
+  position: inherit;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1.article-title {
+  display: none;
 }
 
-.App-link {
-  color: #09d3ac;
+p.article-lead {
+  display: none;
 }
+
+.row.post-body {
+  background: transparent;
+}
+
+.cover-image{
+display: none;
+}
+
+.row.header {
+  background: white;
+}
+
+.page-content {
+  padding-top: 0px;
+}
+
+/*Calendar*/
+
+#cf2 {
+  position: relative;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#cf2 img {
+width: 80%;
+left:0;
+-webkit-transition: transform 200ms ease-in-out;
+-moz-transition: transform 200ms ease-in-out;
+-o-transition: transform 200ms ease-in-out;
+transition: transform 200ms ease-in-out;
+}
+
+
+#cf2 img.transparent {
+transform: scale(0);
+position: absolute;
+}
+
+.pure-content {
+  margin: 0 auto;
+  padding: 0 2em;
+  max-width: 800px;
+  margin-bottom: 50px;
+  line-height: 1.6em;
+}
+
+.lock {
+  width: 15%!important;
+  margin: 5% 0 0 15%;
+  position: absolute;
+}
+
+/*Grid*/
+
+.col-4 {
+width: 33%;
+display: inline-block;
+}
+
+@media only screen and (min-width: 1280px){
+.row.post-body{
+  margin-top:100px;
+}
+}
+
+@media only screen and (min-width: 1400px){
+.row.post-body{
+  margin-top:150px;
+}
+}
+
+
+@media only screen and (min-width: 1500px){
+.row.post-body{
+  margin-top:330px;
+}
+}
+
+@media only screen and (min-width: 1600px){
+.row.post-body{
+  margin-top:390px;
+}
+}
+
+@media only screen and (min-width: 1700px){
+.row.post-body{
+  margin-top:430px;
+}
+}
+
+@media only screen and (min-width: 1800px){
+.row.post-body{
+  margin-top:550px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+      width: 50%;
+  }
+}
+
